@@ -1,0 +1,91 @@
+<template>
+  <div class="bg-white">
+    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-extrabold text-gray-900 uppercase">
+          we have a frame for that
+        </h2>
+        <p class="mt-4 text-md text-gray-500 uppercase">
+          whether if it's for your living room or your corporate office, we have
+          what you need
+        </p>
+      </div>
+      <dl
+        class="
+          mt-12
+          space-y-10
+          sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12
+          lg:grid-cols-4 lg:gap-x-8
+        "
+      >
+        <div v-for="feature in features" :key="feature.name" class="relative">
+          <dt>
+            <CheckIcon
+              class="absolute h-6 w-6 text-green-500"
+              aria-hidden="true"
+            />
+            <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+              {{ feature.name }}
+            </p>
+          </dt>
+          <dd class="mt-2 ml-9 text-base text-gray-500">
+            {{ feature.description }}
+          </dd>
+        </div>
+      </dl>
+    </div>
+    <div>
+      <img src="" alt="" />
+    </div>
+  </div>
+</template>
+
+<script>
+import { CheckIcon } from '@heroicons/vue/outline'
+
+const features = [
+  {
+    name: 'Professional guidance for your project',
+    description: 'Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.',
+  },
+  {
+    name: 'Massive selection of frame stock',
+    description: 'Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.',
+  },
+  {
+    name: 'Multiple glass options',
+    description: 'Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.',
+  },
+  {
+    name: 'Custom material ordering',
+    description: 'Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.',
+  },
+  {
+    name: 'Lorem ipsum',
+    description: 'Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.',
+  },
+  {
+    name: 'Lorem ipsum',
+    description: 'Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.',
+  },
+  {
+    name: 'Lorem ipsum',
+    description: 'Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.',
+  },
+  {
+    name: 'Lorem ipsum',
+    description: 'Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.',
+  },
+]
+
+export default {
+  components: {
+    CheckIcon,
+  },
+  setup() {
+    return {
+      features,
+    }
+  },
+}
+</script>
