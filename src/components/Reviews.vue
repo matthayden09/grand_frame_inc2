@@ -11,7 +11,6 @@
       "
     >
       <div class="lg:col-span-4">
-        <video controls src="../assets/video/barber_shop_clip.mp4" class="mb-10 rounded-md w-full"></video>
         <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">
           Customer Reviews
         </h2>
@@ -171,6 +170,7 @@
         </div>
       </div>
     </div>
+    <video controls src="../assets/video/barber_shop_clip.mp4" class="mb-10 rounded-md  w-full p-4 justify-center"></video>
   </div>
 </template>
 

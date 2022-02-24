@@ -2,7 +2,7 @@
   <div class="bg-white">
     <div class="max-w-5xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
       <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-3xl font-extrabold text-gray-900 uppercase">
+        <h2 class="md:text-3xl text-2xl font-extrabold text-gray-900 uppercase">
           we have a frame for that
         </h2>
         <p class="mt-4 mb-4 text-md text-gray-500 uppercase">
@@ -75,12 +75,10 @@
             sm:text-4xl
           "
         >
-          Technical Specifications
+          Specialty Frames
         </h2>
         <p class="mt-4 text-gray-500">
-          The walnut wood card tray is precision milled to perfectly fit a stack
-          of Focus cards. The powder coated steel divider separates active cards
-          from new ones, or can be used to archive important task lists.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nam? Dolores molestiae doloribus, placeat pariatur provident architecto veritatis, laudantium ex asperiores laboriosam suscipit quasi et earum culpa ipsum atque ullam.
         </p>
 
         <dl
@@ -104,23 +102,23 @@
       </div>
       <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
         <img
-          src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
-          alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+          src="https://i.pinimg.com/736x/07/6b/9c/076b9ca43b2521b7990fa0a85b309e73.jpg"
+          alt=""
           class="bg-gray-100 rounded-lg"
         />
         <img
-          src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-02.jpg"
-          alt="Top down view of walnut card tray with embedded magnets and card groove."
+          src="https://i.pinimg.com/736x/07/6b/9c/076b9ca43b2521b7990fa0a85b309e73.jpg"
+          alt=""
           class="bg-gray-100 rounded-lg"
         />
         <img
-          src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-03.jpg"
-          alt="Side of walnut card tray with card groove and recessed card area."
+          src="https://i.pinimg.com/736x/07/6b/9c/076b9ca43b2521b7990fa0a85b309e73.jpg"
+          alt=""
           class="bg-gray-100 rounded-lg"
         />
         <img
-          src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg"
-          alt="Walnut card tray filled with cards and card angled in dedicated groove."
+          src="https://i.pinimg.com/736x/07/6b/9c/076b9ca43b2521b7990fa0a85b309e73.jpg"
+          alt=""
           class="bg-gray-100 rounded-lg"
         />
       </div>
@@ -169,12 +167,12 @@ const features = [
 ]
 
 const details = [
-  { name: 'Origin', description: 'Designed by Good Goods, Inc.' },
-  { name: 'Material', description: 'Solid walnut base with rare earth magnets and powder coated steel card cover' },
-  { name: 'Dimensions', description: '6.25" x 3.55" x 1.15"' },
-  { name: 'Finish', description: 'Hand sanded and finished with natural oil' },
-  { name: 'Includes', description: 'Wood card tray and 3 refill packs' },
-  { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
+  { name: 'Origin', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
+  { name: 'Material', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
+  { name: 'Dimensions', description: '40" x 30" x 5"' },
+  { name: 'Finish', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
+  { name: 'Includes', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
+  { name: 'Considerations', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
 ]
 
 export default {

@@ -2,7 +2,7 @@
   <div class="relative bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
     <div class="absolute inset-0 overflow-hidden">
       <img
-        src="https://tailwindui.com/img/ecommerce-images/home-page-03-feature-section-full-width.jpg"
+        src="https://images.hdqwalls.com/download/cat-golden-eyes-lying-down-5k-mh-1600x900.jpg"
         alt=""
         class="w-full h-full object-center object-cover"
       />
@@ -15,13 +15,10 @@
       class="relative max-w-3xl mx-auto flex flex-col items-center text-center"
     >
       <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-        Long-term thinking
+        Home Installation
       </h2>
       <p class="mt-3 text-xl text-white">
-        We're committed to responsible, sustainable, and ethical manufacturing.
-        Our small-scale approach allows us to focus on quality and reduce our
-        impact. We're doing our best to delay the inevitable heat-death of the
-        universe.
+        Let our team handle the installation once your project is complete. From our shop to your home or office, we have the tools.
       </p>
       <a
         href="#"
@@ -40,7 +37,7 @@
           hover:bg-gray-100
           sm:w-auto
         "
-        >Read our story</a
+        >Get a Quote</a
       >
     </div>
   </div>

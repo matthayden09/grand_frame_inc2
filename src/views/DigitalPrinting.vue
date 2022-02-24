@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto py-24 sm:py-32 sm:px-2 lg:px-4">
       <div class="max-w-2xl mx-auto px-4 lg:max-w-none">
         <div class="max-w-3xl">
-          <h2 class="font-semibold text-gray-500">Drawstring Canister</h2>
+          <h2 class="font-semibold text-gray-500">The highest quality with the best equipment</h2>
           <p
             class="
               mt-2
@@ -14,13 +14,11 @@
               sm:text-4xl
             "
           >
-            Use it your way
+            Digital Printing
           </p>
-          <p class="mt-4 text-gray-500">
-            The Drawstring Canister comes with multiple strap and handle options
-            to adapt throughout your day. Shoulder sling it, backpack it, or
-            handy carry it.
-          </p>
+          <!-- <p class="mt-4 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p> -->
         </div>
 
         <div
@@ -76,24 +74,24 @@ import Contact from '../components/Contact.vue'
 
 const features = [
   {
-    name: 'Adventure-ready',
+    name: 'Lorem ipsum',
     description:
-      'The Drawstring Canister is water and tear resistant with durable canvas construction. This bag holds up to the demands of daily use while keeping your snacks secure.',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-03.jpg',
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magni, delectus, ad aliquam libero voluptate animi dolores qui inventore quam officiis amet obcaecati aut sunt quis! Molestias impedit suscipit porro?',
+    imageSrc: 'https://icatcare.org/app/uploads/2018/06/Layer-1704-1200x630.jpg',
     imageAlt: 'Printed photo of bag being tossed into the sky on top of grass.',
   },
   {
-    name: 'Minimal and clean',
+    name: 'Lorem ipsum',
     description:
-      "Everything you need, nothing you don't. This bag has the simple, contemporary design that enables you to tell everyone you know about how essentialism is the only rational way to live life.",
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-01.jpg',
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magni, delectus, ad aliquam libero voluptate animi dolores qui inventore quam officiis amet obcaecati aut sunt quis! Molestias impedit suscipit porro?",
+    imageSrc: 'https://icatcare.org/app/uploads/2018/06/Layer-1704-1200x630.jpg',
     imageAlt: 'Double stitched black canvas hook loop.',
   },
   {
-    name: 'Organized',
+    name: 'Lorem ipsum',
     description:
-      'Never lose your snacks again with our patent-pending snack stash pocket system. With dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new levels of efficiency and convenience.',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-02.jpg',
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magni, delectus, ad aliquam libero voluptate animi dolores qui inventore quam officiis amet obcaecati aut sunt quis! Molestias impedit suscipit porro?',
+    imageSrc: 'https://icatcare.org/app/uploads/2018/06/Layer-1704-1200x630.jpg',
     imageAlt: 'Black canvas body with chrome zipper and key ring.',
   },
 ]
