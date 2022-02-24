@@ -73,9 +73,12 @@
       </div>
     </div>
   </div>
+  <Contact />
 </template>
 
 <script>
+import Contact from '../components/Contact.vue'
+
 const people = [
   {
     name: 'Gary Grana',
@@ -113,6 +116,7 @@ const people = [
 ]
 
 export default {
+  components: { Contact },
   setup() {
     return {
       people,

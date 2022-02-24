@@ -38,7 +38,7 @@
           sm:px-0
         "
       >
-        <div
+        <PopoverButton
           class="
             rounded-lg
             shadow-lg
@@ -47,10 +47,10 @@
           "
         >
           <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-            <a
+            <router-link
               v-for="item in solutions"
               :key="item.name"
-              :href="item.href"
+              :to="{ name: item.name }"
               class="
                 -m-3
                 p-3
@@ -62,15 +62,15 @@
                 duration-150
               "
             >
-              <p class="text-base font-medium text-gray-900">
-                {{ item.name }}
+              <p class="text-base font-medium text-gray-900 text-left">
+                {{ item.title }}
               </p>
-              <p class="mt-1 text-sm text-gray-500">
+              <!-- <p class="mt-1 text-sm text-gray-500">
                 {{ item.description }}
-              </p>
-            </a>
+              </p> -->
+            </router-link>
           </div>
-        </div>
+        </PopoverButton>
       </PopoverPanel>
     </transition>
   </Popover>
@@ -81,16 +81,16 @@ import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { ChevronDownIcon } from '@heroicons/vue/solid'
 
 const solutions = [
-  { name: 'Custom Framing', description: 'lorem ipsum', href: '/custom_framing' },
+  { name: 'CustomFraming', title: 'Custom Framing', description: 'lorem ipsum', },
   {
-    name: 'Digital Printing',
+    name: 'DigitalPrinting',
+    title: 'Digital Printing',
     description: 'lorem ipsum',
-    href: '/digital_printing',
   },
-  { name: 'Wholesale Orders', description: 'lorem ipsum', href: '/wholesale_orders' },
-  { name: 'Installation', description: 'lorem ipsum', href: '/installation' },
-  { name: 'Fine Art Restoration', description: 'lorem ipsum', href: '/art_restoration' },
-  { name: 'Photo Restoration', description: 'lorem ipsum', href: '/photo_restoration' },
+  { name: 'WholesaleOrders', title: 'Wholesale Orders', description: 'lorem ipsum', },
+  { name: 'Installation', title: 'Installation', description: 'lorem ipsum', },
+  { name: 'ArtRestoration', title: 'Fine Art Restoration', description: 'lorem ipsum', },
+  { name: 'PhotoRestoration', title: 'Photo Restoration', description: 'lorem ipsum', },
 ]
 
 export default {

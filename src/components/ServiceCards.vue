@@ -7,6 +7,9 @@
       shadow
       divide-y divide-gray-200
       sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px
+      max-w-5xl
+      m-auto
+      my-8
     "
   >
     <div
@@ -35,11 +38,10 @@
       </div>
       <div class="mt-8">
         <h3 class="text-lg font-medium">
-          <a :href="action.href" class="focus:outline-none">
-            <!-- Extend touch target to entire panel -->
+          <router-link class="focus:outline-none" :to="{ name: action.name }">
             <span class="absolute inset-0" aria-hidden="true" />
             {{ action.title }}
-          </a>
+          </router-link>
         </h3>
         <p class="mt-2 text-sm text-gray-500">
           Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit
@@ -85,36 +87,36 @@ import {
 const actions = [
   {
     title: 'Custom Framing',
-    href: '/custom_framing',
+    name: 'CustomFraming',
     icon: PhotographIcon,
     iconForeground: 'text-pink-700',
     iconBackground: 'bg-pink-50',
   },
   {
     title: 'Digital Printing',
-    href: '/digital_printing',
+    name: 'DigitalPrinting',
     icon: PrinterIcon,
     iconForeground: 'text-blue-700',
     iconBackground: 'bg-blue-50',
   },
   {
     title: 'Wholesale Orders',
-    href: '/wholesale_orders',
+    name: 'WholesaleOrders',
     icon: TruckIcon,
     iconForeground: 'text-green-700',
     iconBackground: 'bg-green-50',
   },
-  { title: 'Installation', href: '/installation', icon: HomeIcon, iconForeground: 'text-gray-700', iconBackground: 'bg-gray-50' },
+  { title: 'Installation', name: 'Installation', icon: HomeIcon, iconForeground: 'text-gray-700', iconBackground: 'bg-gray-50' },
   {
     title: 'Fine Art Restoration',
-    href: '/art_restoration',
+    name: 'ArtRestoration',
     icon: SparklesIcon,
     iconForeground: 'text-yellow-700',
     iconBackground: 'bg-yellow-50',
   },
   {
     title: 'Photo Restoration',
-    href: '/photo_restoration',
+    name: 'PhotoRestoration',
     icon: CameraIcon,
     iconForeground: 'text-red-700',
     iconBackground: 'bg-red-50',

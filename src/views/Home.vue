@@ -32,7 +32,7 @@
     </div>
   </div>
   <ServiceCards />
-  <!-- <Reviews /> -->
+  <Reviews />
   <Contact />
 </template>
 

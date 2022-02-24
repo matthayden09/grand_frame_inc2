@@ -22,9 +22,10 @@
             text-white
             sm:text-4xl
             lg:text-5xl
+            uppercase
           "
         >
-          The right price for you, whoever you are
+          Large orders, reasonable prices
         </p>
         <p
           class="
@@ -75,7 +76,7 @@
                         class="text-center text-2xl font-medium text-gray-900"
                         id="tier-hobby"
                       >
-                        Hobby
+                        Option 1
                       </h3>
                       <div class="mt-4 flex items-center justify-center">
                         <span
@@ -94,7 +95,7 @@
                           <span class="font-extrabold"> 79 </span>
                         </span>
                         <span class="text-xl font-medium text-gray-500">
-                          /month
+                          /x frames
                         </span>
                       </div>
                     </div>
@@ -148,7 +149,7 @@
                           "
                           aria-describedby="tier-hobby"
                         >
-                          Start your trial
+                          Select this option
                         </a>
                       </div>
                     </div>
@@ -212,7 +213,7 @@
                       "
                       id="tier-growth"
                     >
-                      Growth
+                      Option 2
                     </h3>
                     <div class="mt-4 flex items-center justify-center">
                       <span
@@ -230,7 +231,7 @@
                         <span class="font-extrabold"> 149 </span>
                       </span>
                       <span class="text-2xl font-medium text-gray-500">
-                        /month
+                        /x frames
                       </span>
                     </div>
                   </div>
@@ -284,7 +285,7 @@
                         "
                         aria-describedby="tier-growth"
                       >
-                        Start your trial
+                        Select this option
                       </a>
                     </div>
                   </div>
@@ -321,7 +322,7 @@
                         class="text-center text-2xl font-medium text-gray-900"
                         id="tier-scale"
                       >
-                        Scale
+                        Option 3
                       </h3>
                       <div class="mt-4 flex items-center justify-center">
                         <span
@@ -340,7 +341,7 @@
                           <span class="font-extrabold"> 349 </span>
                         </span>
                         <span class="text-xl font-medium text-gray-500">
-                          /month
+                          /x frames
                         </span>
                       </div>
                     </div>
@@ -394,7 +395,7 @@
                           "
                           aria-describedby="tier-scale"
                         >
-                          Start your trial
+                          Select this option
                         </a>
                       </div>
                     </div>
@@ -407,10 +408,12 @@
       </div>
     </div>
   </div>
+  <Contact />
 </template>
 
 <script>
 import { CheckIcon } from '@heroicons/vue/outline'
+import Contact from '../components/Contact.vue'
 
 const hobbyFeatures = ['Pariatur quod similique', 'Sapiente libero doloribus', 'Vel ipsa esse repudiandae']
 const scaleFeatures = ['Pariatur quod similique', 'Sapiente libero doloribus', 'Vel ipsa esse repudiandae']
@@ -424,7 +427,7 @@ const growthFeatures = [
 
 export default {
   components: {
-    CheckIcon,
+    CheckIcon, Contact
   },
   setup() {
     return {

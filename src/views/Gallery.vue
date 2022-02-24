@@ -1,35 +1,24 @@
 <template>
-  <div class="flex p-2 justify-center mt-10">
-    <h1 class="p-2">Gallery</h1>
-    <button
-      @click="handleClick"
-      class="
-        bg-red-300
-        ml-4
-        p-2
-        rounded-md
-        hover:bg-blue-300
-        cursor-pointer
-      "
-    >
-      click me
-    </button>
-  </div>
+ <div class="flex justify-center p-8">
+   <img src="https://media.giphy.com/media/Lp9sOuNZdmlIw7ZVE0/giphy.gif">
+ </div>
+  <Contact />
 </template>
 
 <script>
-export default {
-  setup() {
-    const handleClick = () => {
-      console.log('hooray')
-    }
+import Contact from '../components/Contact.vue'
 
-    return { handleClick }
+export default {
+  components: { Contact },
+  setup() {
+
   }
 
 }
+
 </script>
 
 <style>
+
 </style>
 

@@ -1,14 +1,24 @@
 <template>
   <div class="bg-white">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+    <div class="max-w-5xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl font-extrabold text-gray-900 uppercase">
           we have a frame for that
         </h2>
-        <p class="mt-4 text-md text-gray-500 uppercase">
+        <p class="mt-4 mb-4 text-md text-gray-500 uppercase">
           whether if it's for your living room or your corporate office, we have
           what you need
         </p>
+      </div>
+      <div class="w-auto h-96 relative">
+        <video
+          autoplay
+          muted
+          loop
+          src="../assets/video/workshop_clip.mp4"
+          type="video/mp4"
+          class="w-full h-full absolute object-cover z-0 rounded-sm"
+        ></video>
       </div>
       <dl
         class="
@@ -38,10 +48,12 @@
       <img src="" alt="" />
     </div>
   </div>
+  <Contact />
 </template>
 
 <script>
 import { CheckIcon } from '@heroicons/vue/outline'
+import Contact from '../components/Contact.vue'
 
 const features = [
   {
@@ -79,8 +91,9 @@ const features = [
 ]
 
 export default {
+
   components: {
-    CheckIcon,
+    CheckIcon, Contact
   },
   setup() {
     return {

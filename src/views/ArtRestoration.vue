@@ -2,14 +2,16 @@
   <div>
     <h1>Fine Art Restoration</h1>
   </div>
+  <Contact />
 </template>
 
 <script>
-export default {
+import Contact from '../components/Contact.vue'
 
+export default {
+  components: { Contact }
 }
 </script>
 
 <style>
-
 </style>
