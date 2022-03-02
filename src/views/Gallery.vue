@@ -1,15 +1,12 @@
 <template>
-<div class="max-w-3xl mx-auto text-center mt-10">
-        <h2 class="md:text-3xl text-2xl font-extrabold text-gray-900 uppercase">
-          The Gallery
-        </h2>
-        <p class="mt-4 mb-4 text-md text-gray-500 uppercase">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore quae laboriosam dolores numquam accusamus voluptate.
-        </p>
-      </div>
-
-  <div class="flex justify-center p-8">
-    <img src="https://media.giphy.com/media/Lp9sOuNZdmlIw7ZVE0/giphy.gif" />
+  <div class="max-w-3xl mx-auto text-center mt-10">
+    <h2 class="md:text-3xl text-2xl font-extrabold text-gray-900 uppercase">
+      The Gallery
+    </h2>
+    <p class="mt-4 mb-4 text-md text-gray-500 uppercase">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore quae
+      laboriosam dolores numquam accusamus voluptate.
+    </p>
   </div>
 
   <ul

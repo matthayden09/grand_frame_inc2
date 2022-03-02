@@ -19,13 +19,13 @@
           lg:text-6xl
           font-serif
           uppercase
-          backdrop-contrast-200
+          contrast-200
         "
       >
         Grand Frame Inc.
       </p>
       <p
-        class="max-w-xl mt-5 mx-auto text-md text-yellow-200 uppercase underline backdrop-contrast-200"
+        class="max-w-xl mt-5 mx-auto text-md text-yellow-200 uppercase underline contrast-200"
       >
         family owned since 1974
       </p>
