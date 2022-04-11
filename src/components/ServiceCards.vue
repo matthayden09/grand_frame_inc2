@@ -13,50 +13,42 @@
     "
   >
     <div
-      v-for="(action, actionIdx) in actions"
-      :key="action.title"
+      v-for="(service, serviceIdx) in services"
+      :key="service.title"
       :class="[
-        actionIdx === 0 ? 'rounded-tl-lg rounded-tr-lg sm:rounded-tr-none' : '',
-        actionIdx === 1 ? 'sm:rounded-tr-lg' : '',
-        actionIdx === actions.length - 2 ? 'sm:rounded-bl-lg' : '',
-        actionIdx === actions.length - 1
+        serviceIdx === 0 ? 'rounded-tl-lg rounded-tr-lg sm:rounded-tr-none' : '',
+        serviceIdx === 1 ? 'sm:rounded-tr-lg' : '',
+        serviceIdx === services.length - 2 ? 'sm:rounded-bl-lg' : '',
+        serviceIdx === services.length - 1
           ? 'rounded-bl-lg rounded-br-lg sm:rounded-bl-none'
           : '',
-        'relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-yellow-500',
+        'relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-amber-400',
       ]"
     >
       <div>
         <span
           :class="[
-            action.iconBackground,
-            action.iconForeground,
-            'rounded-lg inline-flex p-3 ring-4 ring-white',
+            service.iconBackground,
+            service.iconForeground,
+            'rounded-lg inline-flex p-3 ring-4 ring-white group-hover:animate-bounce',
           ]"
         >
-          <component :is="action.icon" class="h-6 w-6" aria-hidden="true" />
+          <component :is="service.icon" class="h-6 w-6" aria-hidden="true" />
         </span>
       </div>
       <div class="mt-8">
-        <h3 class="text-lg font-medium">
-          <router-link class="focus:outline-none" :to="{ name: action.name }">
+        <h3 class="text-lg font-medium hover:text-xl">
+          <router-link class="focus:outline-none" :to="{ name: service.name }">
             <span class="absolute inset-0" aria-hidden="true" />
-            {{ action.title }}
+            {{ service.title }}
           </router-link>
         </h3>
         <p class="mt-2 text-sm text-gray-500">
-          Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit
-          repellendus qui ut at blanditiis et quo et molestiae.
+          {{ service.details }}
         </p>
       </div>
       <span
-        class="
-          pointer-events-none
-          absolute
-          top-6
-          right-6
-          text-gray-300
-          group-hover:text-gray-400
-        "
+        class="absolute top-6 right-6 text-gray-300 group-hover:text-gray-700"
         aria-hidden="true"
       >
         <svg
@@ -84,10 +76,11 @@ import {
   SparklesIcon,
 } from '@heroicons/vue/outline'
 
-const actions = [
+const services = [
   {
     title: 'Custom Framing',
     name: 'CustomFraming',
+    details: 'Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.',
     icon: PhotographIcon,
     iconForeground: 'text-pink-700',
     iconBackground: 'bg-pink-50',
@@ -95,6 +88,7 @@ const actions = [
   {
     title: 'Digital Printing',
     name: 'DigitalPrinting',
+    details: 'Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.',
     icon: PrinterIcon,
     iconForeground: 'text-blue-700',
     iconBackground: 'bg-blue-50',
@@ -102,14 +96,16 @@ const actions = [
   {
     title: 'Wholesale Orders',
     name: 'WholesaleOrders',
+    details: 'Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.',
     icon: TruckIcon,
     iconForeground: 'text-green-700',
     iconBackground: 'bg-green-50',
   },
-  { title: 'Installation', name: 'Installation', icon: HomeIcon, iconForeground: 'text-gray-700', iconBackground: 'bg-gray-50' },
+  { title: 'Installation', name: 'Installation', details: 'Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.', icon: HomeIcon, iconForeground: 'text-gray-700', iconBackground: 'bg-gray-50' },
   {
     title: 'Fine Art Restoration',
     name: 'ArtRestoration',
+    details: 'Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.',
     icon: SparklesIcon,
     iconForeground: 'text-yellow-700',
     iconBackground: 'bg-yellow-50',
@@ -117,6 +113,7 @@ const actions = [
   {
     title: 'Photo Restoration',
     name: 'PhotoRestoration',
+    details: 'Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et quo et molestiae.',
     icon: CameraIcon,
     iconForeground: 'text-red-700',
     iconBackground: 'bg-red-50',
@@ -126,7 +123,7 @@ const actions = [
 export default {
   setup() {
     return {
-      actions,
+      services,
     }
   },
 }

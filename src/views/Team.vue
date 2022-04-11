@@ -35,10 +35,10 @@
         >
           <li v-for="person in people" :key="person.name">
             <div class="space-y-4">
-              <div class="w-80 h-80">
+              <div class="w-80 h-max">
                 <img
                   class="object-cover shadow-lg rounded-lg"
-                  :src="person.imageUrl"
+                  :src="person.image"
                   alt=""
                 />
               </div>
@@ -46,7 +46,7 @@
               <div class="space-y-2">
                 <div class="text-lg leading-6 font-medium space-y-1">
                   <h3>{{ person.name }}</h3>
-                  <p class="text-yellow-600">{{ person.role }}</p>
+                  <p class="text-amber-400">{{ person.role }}</p>
                 </div>
                 <!-- <ul role="list" class="flex space-x-5">
                   <li>
@@ -78,40 +78,48 @@
 
 <script>
 import Contact from '../components/Contact.vue'
+import Charlie_Buehler from '../assets/img/staff/charlie_buehler.jpg'
+import Joellen_Dobrow from '../assets/img/staff/joellen_dobrow.jpg'
+import John_Schleich from '../assets/img/staff/john_schleich.jpg'
+import No_Picture from '../assets/img/staff/no_picture.jpg'
 
 const people = [
   {
     name: 'Gary Grana',
     role: 'Founder',
-    imageUrl:
-      'https://cdn.wallpapersafari.com/30/16/coBJ75.jpg',
+    image: No_Picture,
     // twitterUrl: '#',
     // linkedinUrl: '#',
   },
   {
     name: 'Matt Grana',
     role: 'Owner',
-    imageUrl: 'https://cdn.wallpapersafari.com/30/16/coBJ75.jpg'
+    image: No_Picture
   },
   {
     name: 'Christina Grana',
     role: 'Co-Owner',
-    imageUrl: 'https://cdn.wallpapersafari.com/30/16/coBJ75.jpg'
+    image: No_Picture
   },
   {
-    name: 'Team Member',
-    role: 'Role',
-    imageUrl: 'https://cdn.wallpapersafari.com/30/16/coBJ75.jpg'
+    name: 'Charlie Buehler',
+    role: 'Matting Department',
+    image: Charlie_Buehler
   },
   {
-    name: 'Team Member',
-    role: 'Role',
-    imageUrl: 'https://cdn.wallpapersafari.com/30/16/coBJ75.jpg'
+    name: 'Joellen Dobrow',
+    role: 'Mounting & Sewing Department',
+    image: Joellen_Dobrow
   },
   {
-    name: 'Team Member',
-    role: 'Role',
-    imageUrl: 'https://cdn.wallpapersafari.com/30/16/coBJ75.jpg'
+    name: 'John Schleich',
+    role: 'Art Printing Department',
+    image: John_Schleich
+  },
+  {
+    name: 'Brian Kudalis',
+    role: 'Fitting Department',
+    image: No_Picture
   },
 ]
 

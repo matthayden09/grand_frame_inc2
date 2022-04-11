@@ -20,7 +20,7 @@
                 <PhoneIcon class="h-6 w-6 text-gray-400" aria-hidden="true" />
               </div>
               <div class="ml-3 text-base text-gray-500">
-                <p>+1 (847) 253 9393</p>
+                <p>+1 (847) 253-9393</p>
               </div>
             </div>
             <div class="mt-6 flex">
@@ -42,38 +42,76 @@
               </div>
               <div class="ml-3 text-base text-gray-500">
                 <p>
-                  209 S. Arlington Heights Rd.<br />
-                  Arlington Heights, IL 60005
+                  <a
+                    href="https://www.google.com/search?q=209+S.+Arlington+Heights+Rd.+Arlington+Heights%2C+IL+60005&rlz=1C5CHFA_enUS921US921&oq=209+S.+Arlington+Heights+Rd.+Arlington+Heights%2C+IL+60005&aqs=chrome..69i57j33i22i29i30.1091j0j7&sourceid=chrome&ie=UTF-8"
+                  >
+                    209 S. Arlington Heights Rd.<br />
+                    Arlington Heights, IL 60005
+                  </a>
                 </p>
               </div>
             </div>
           </div>
         </div>
+
         <!-- partners -->
         <div class="mt-12 sm:mt-16 md:mt-0">
           <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
             Our Partners
           </h2>
-          <div class="mt-8">
-            <h3 class="text-2xl text-gray-500">
-              impactCOLOR
-            </h3>
-          </div>
-          <div class="mt-6">
-            <div class="flex">
-              <div class="flex-shrink-0">
-                <PhoneIcon class="h-6 w-6 text-gray-400" aria-hidden="true" />
+
+          <div class="md:grid md:grid-cols-2 md:gap-8">
+            <div class="mt-8">
+              <h3 class="text-2xl text-gray-500">Gary Grana</h3>
+              <p class="text-lg text-gray-400">Artist • Woodworker</p>
+              <div class="mt-6 flex">
+                <div class="flex-shrink-0">
+                  <PhoneIcon class="h-6 w-6 text-gray-400" aria-hidden="true" />
+                </div>
+                <div class="ml-3 text-base text-gray-500">
+                  <p>+1 (847) 471-6914</p>
+                </div>
               </div>
-              <div class="ml-3 text-base text-gray-500">
-                <p>+1 (847) 305 5457</p>
+              <div class="mt-6 flex">
+                <div class="flex-shrink-0">
+                  <GlobeIcon class="h-6 w-6 text-gray-400" aria-hidden="true" />
+                </div>
+                <div class="ml-3 text-base text-gray-500">
+                  <a href="https://artist.garygrana.com/"
+                    >artist.garygrana.com</a
+                  >
+                </div>
+              </div>
+              <div class="mt-6 flex">
+                <div class="flex-shrink-0">
+                  <MailIcon class="h-6 w-6 text-gray-400" aria-hidden="true" />
+                </div>
+                <div class="ml-3 text-base text-gray-500">
+                  <p>Glink95@gmail.com</p>
+                </div>
               </div>
             </div>
-             <div class="mt-6 flex">
-              <div class="flex-shrink-0">
-                <GlobeIcon class="h-6 w-6 text-gray-400" aria-hidden="true" />
+
+            <div class="mt-8">
+              <h3 class="text-2xl text-gray-500">Tony Armendariz</h3>
+              <p class="text-lg text-gray-400">
+                Instruction • Workshops • Commissions
+              </p>
+              <div class="mt-6 flex">
+                <div class="flex-shrink-0">
+                  <PhoneIcon class="h-6 w-6 text-gray-400" aria-hidden="true" />
+                </div>
+                <div class="ml-3 text-base text-gray-500">
+                  <p>+1 (847) 971-8669</p>
+                </div>
               </div>
-              <div class="ml-3 text-base text-gray-500">
-                <a href="https://impact-color.com/">impact-color.com</a>
+              <div class="mt-6 flex">
+                <div class="flex-shrink-0">
+                  <GlobeIcon class="h-6 w-6 text-gray-400" aria-hidden="true" />
+                </div>
+                <div class="ml-3 text-base text-gray-500">
+                  <a href="http://armendarizart.com/">ArmendarizArt.com</a>
+                </div>
               </div>
             </div>
           </div>

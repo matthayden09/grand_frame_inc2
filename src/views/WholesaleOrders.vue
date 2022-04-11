@@ -1,8 +1,8 @@
 <template>
   <div class="bg-gray-900">
-    <div class="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
+    <div class="pt-8 pb-8 px-4 sm:px-6 lg:px-8 lg:pt-20">
       <div class="text-center">
-        <h2
+        <!-- <h2
           class="
             text-lg
             leading-6
@@ -13,10 +13,11 @@
           "
         >
           Pricing
-        </h2>
+        </h2> -->
         <p
           class="
             mt-2
+            p-8
             text-3xl
             font-extrabold
             text-white
@@ -25,9 +26,9 @@
             uppercase
           "
         >
-          Large orders, reasonable prices
+          COMING SOON
         </p>
-        <p
+        <!-- <p
           class="
             mt-3
             max-w-4xl
@@ -38,11 +39,11 @@
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
           numquam eligendi quos odit doloribus molestiae voluptatum.
-        </p>
+        </p> -->
       </div>
     </div>
 
-    <div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
+    <!-- <div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
       <div class="relative z-0">
         <div class="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3" />
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -406,7 +407,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <Contact />
 </template>

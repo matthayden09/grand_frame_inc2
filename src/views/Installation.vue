@@ -1,8 +1,8 @@
 <template>
-  <div class="relative bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
+  <div class="relative p-12 md:p-48">
     <div class="absolute inset-0 overflow-hidden">
       <img
-        src="https://images.hdqwalls.com/download/cat-golden-eyes-lying-down-5k-mh-1600x900.jpg"
+        src="../assets/img/installation.png"
         alt=""
         class="w-full h-full object-center object-cover"
       />
@@ -18,13 +18,13 @@
         Home Installation
       </h2>
       <p class="mt-3 text-xl text-white">
-        Let our team handle the installation once your project is complete. From our shop to your home or office, we have the tools.
+        Let our team handle the installation once your project is complete. From
+        our shop to your home or office, we have the tools.
       </p>
       <a
         href="#"
         class="
           mt-8
-          w-full
           block
           bg-white
           border border-transparent

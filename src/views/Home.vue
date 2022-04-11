@@ -8,13 +8,13 @@
       type="video/mp4"
       class="w-full h-full absolute object-cover z-0"
     ></video>
-    <div class="text-center relative z-10 w-auto mx-auto py-12 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <div class="text-center relative z-10 w-auto mx-auto py-24 px-4 sm:py-24 sm:px-6 lg:px-8">
       <p
         class="
           mt-1
           text-4xl
           font-extrabold
-          text-yellow-300
+          text-amber-300
           sm:text-5xl sm:tracking-tight
           lg:text-6xl
           font-serif
@@ -25,7 +25,7 @@
         Grand Frame Inc.
       </p>
       <p
-        class="max-w-xl mt-5 mx-auto text-md text-yellow-200 uppercase underline contrast-200"
+        class="max-w-xl mt-5 mx-auto text-md text-amber-200 uppercase underline contrast-200"
       >
         family owned since 1974
       </p>
