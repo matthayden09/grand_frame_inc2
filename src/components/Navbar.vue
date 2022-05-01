@@ -109,7 +109,7 @@
         </div>
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <button
+            <!-- <button
               type="button"
               class="
                 relative
@@ -133,7 +133,7 @@
             >
               <ShoppingCartIcon class="-ml-1 mr-2 h-5 w-5" aria-hidden="true" />
               <span>Online Store</span>
-            </button>
+            </button> -->
           </div>
         </div>
       </div>

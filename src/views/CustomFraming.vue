@@ -11,14 +11,14 @@
         </p>
       </div>
       <div class="w-auto h-96 relative">
-        <video
+        <!-- <video
           autoplay
           muted
           loop
           src="../assets/video/workshop_clip.mp4"
           type="video/mp4"
           class="w-full h-full absolute object-cover z-0 rounded-sm"
-        ></video>
+        ></video> -->
       </div>
       <dl
         class="

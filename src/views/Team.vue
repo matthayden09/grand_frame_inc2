@@ -15,14 +15,14 @@
         </div>
 
         <div class="w-auto h-96 relative">
-          <iframe
+          <!-- <iframe
             class="w-full h-full absolute object-cover rounded-md"
             src="https://www.youtube.com/embed/1ZsV4gHYRoQ"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe> -->
         </div>
 
         <ul

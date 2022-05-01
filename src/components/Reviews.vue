@@ -170,7 +170,7 @@
         </div>
       </div>
     </div>
-    <video controls src="../assets/video/barber_shop_clip.mp4" class="mb-10 rounded-md  w-full p-4 justify-center"></video>
+    <!-- <video controls src="../assets/video/barber_shop_clip.mp4" class="mb-10 rounded-md  w-full p-4 justify-center"></video> -->
   </div>
 </template>
 
