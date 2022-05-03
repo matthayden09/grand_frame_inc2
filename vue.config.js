@@ -1,6 +1,6 @@
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-      ? '/grand_frame_inc/'
+      ? 'https://matthayden09.github.io/grand_frame_inc/'
       : '/'
   }
 
